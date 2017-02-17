@@ -514,6 +514,7 @@
 				9E1C8DC71E56A15B00549126 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		9E1C8DC81E56A15B00549126 /* Build configuration list for PBXNativeTarget "STMusicTests" */ = {
 			isa = XCConfigurationList;
@@ -522,6 +523,7 @@
 				9E1C8DCA1E56A15B00549126 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		9E1C8DCB1E56A15B00549126 /* Build configuration list for PBXNativeTarget "STMusicUITests" */ = {
 			isa = XCConfigurationList;
@@ -530,6 +532,7 @@
 				9E1C8DCD1E56A15B00549126 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
