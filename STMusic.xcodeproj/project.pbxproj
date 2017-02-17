@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		240DA4E7FE2CEDDEB4D31307 /* libPods-STMusic.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 2EF6DB37030C73239B0C4E03 /* libPods-STMusic.a */; };
 		9E1C8D9D1E56A15B00549126 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 9E1C8D9C1E56A15B00549126 /* main.m */; };
 		9E1C8DA01E56A15B00549126 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 9E1C8D9F1E56A15B00549126 /* AppDelegate.m */; };
 		9E1C8DA31E56A15B00549126 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9E1C8DA21E56A15B00549126 /* ViewController.m */; };
@@ -35,6 +36,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		2EF6DB37030C73239B0C4E03 /* libPods-STMusic.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-STMusic.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		9E1C8D981E56A15B00549126 /* STMusic.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = STMusic.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9E1C8D9C1E56A15B00549126 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		9E1C8D9E1E56A15B00549126 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -51,6 +53,8 @@
 		9E1C8DBC1E56A15B00549126 /* STMusicUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = STMusicUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		9E1C8DC01E56A15B00549126 /* STMusicUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = STMusicUITests.m; sourceTree = "<group>"; };
 		9E1C8DC21E56A15B00549126 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D7FD0B7CAB8CC976EF16C2A1 /* Pods-STMusic.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-STMusic.debug.xcconfig"; path = "Pods/Target Support Files/Pods-STMusic/Pods-STMusic.debug.xcconfig"; sourceTree = "<group>"; };
+		E9D4BCFF6BFB93D9D573EF0F /* Pods-STMusic.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-STMusic.release.xcconfig"; path = "Pods/Target Support Files/Pods-STMusic/Pods-STMusic.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +62,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				240DA4E7FE2CEDDEB4D31307 /* libPods-STMusic.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -85,6 +90,8 @@
 				9E1C8DB41E56A15B00549126 /* STMusicTests */,
 				9E1C8DBF1E56A15B00549126 /* STMusicUITests */,
 				9E1C8D991E56A15B00549126 /* Products */,
+				AFC3B9FC30CC034AAA3820F3 /* Pods */,
+				D263A84CAEF68B04993DD4A6 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -140,6 +147,23 @@
 			path = STMusicUITests;
 			sourceTree = "<group>";
 		};
+		AFC3B9FC30CC034AAA3820F3 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				D7FD0B7CAB8CC976EF16C2A1 /* Pods-STMusic.debug.xcconfig */,
+				E9D4BCFF6BFB93D9D573EF0F /* Pods-STMusic.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		D263A84CAEF68B04993DD4A6 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				2EF6DB37030C73239B0C4E03 /* libPods-STMusic.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -147,9 +171,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 9E1C8DC51E56A15B00549126 /* Build configuration list for PBXNativeTarget "STMusic" */;
 			buildPhases = (
+				01E344A700D80835DA66C8F4 /* [CP] Check Pods Manifest.lock */,
 				9E1C8D941E56A15B00549126 /* Sources */,
 				9E1C8D951E56A15B00549126 /* Frameworks */,
 				9E1C8D961E56A15B00549126 /* Resources */,
+				8125DADC4E7D5BE17A7B11A3 /* [CP] Embed Pods Frameworks */,
+				237396039816A1ECF47952BB /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -270,6 +297,54 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		01E344A700D80835DA66C8F4 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		237396039816A1ECF47952BB /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-STMusic/Pods-STMusic-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		8125DADC4E7D5BE17A7B11A3 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-STMusic/Pods-STMusic-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		9E1C8D941E56A15B00549126 /* Sources */ = {
@@ -423,6 +498,7 @@
 		};
 		9E1C8DC61E56A15B00549126 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = D7FD0B7CAB8CC976EF16C2A1 /* Pods-STMusic.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = BKME25WU4F;
@@ -435,6 +511,7 @@
 		};
 		9E1C8DC71E56A15B00549126 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = E9D4BCFF6BFB93D9D573EF0F /* Pods-STMusic.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = BKME25WU4F;

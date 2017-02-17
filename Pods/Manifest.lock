@@ -1,0 +1,15 @@
+PODS:
+  - MJExtension (3.0.13)
+  - XXNibBridge (2.3.1)
+
+DEPENDENCIES:
+  - MJExtension (~> 3.0.13)
+  - XXNibBridge (~> 2.3.1)
+
+SPEC CHECKSUMS:
+  MJExtension: 5932755f451458eefa24239358817f8d291240c7
+  XXNibBridge: addb780e6db076eb2c61716aa60b176a6799b80f
+
+PODFILE CHECKSUM: 5d8c45fb0d84b6f9d1e93375a3fce14ce10151eb
+
+COCOAPODS: 1.2.0.beta.1
