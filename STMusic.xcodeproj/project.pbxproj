@@ -1,0 +1,537 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		9E1C8D9D1E56A15B00549126 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 9E1C8D9C1E56A15B00549126 /* main.m */; };
+		9E1C8DA01E56A15B00549126 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 9E1C8D9F1E56A15B00549126 /* AppDelegate.m */; };
+		9E1C8DA31E56A15B00549126 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9E1C8DA21E56A15B00549126 /* ViewController.m */; };
+		9E1C8DA61E56A15B00549126 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9E1C8DA41E56A15B00549126 /* Main.storyboard */; };
+		9E1C8DA81E56A15B00549126 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9E1C8DA71E56A15B00549126 /* Assets.xcassets */; };
+		9E1C8DAB1E56A15B00549126 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9E1C8DA91E56A15B00549126 /* LaunchScreen.storyboard */; };
+		9E1C8DB61E56A15B00549126 /* STMusicTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 9E1C8DB51E56A15B00549126 /* STMusicTests.m */; };
+		9E1C8DC11E56A15B00549126 /* STMusicUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 9E1C8DC01E56A15B00549126 /* STMusicUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		9E1C8DB21E56A15B00549126 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9E1C8D901E56A15B00549126 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9E1C8D971E56A15B00549126;
+			remoteInfo = STMusic;
+		};
+		9E1C8DBD1E56A15B00549126 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9E1C8D901E56A15B00549126 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9E1C8D971E56A15B00549126;
+			remoteInfo = STMusic;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		9E1C8D981E56A15B00549126 /* STMusic.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = STMusic.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		9E1C8D9C1E56A15B00549126 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		9E1C8D9E1E56A15B00549126 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		9E1C8D9F1E56A15B00549126 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		9E1C8DA11E56A15B00549126 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		9E1C8DA21E56A15B00549126 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		9E1C8DA51E56A15B00549126 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		9E1C8DA71E56A15B00549126 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		9E1C8DAA1E56A15B00549126 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		9E1C8DAC1E56A15B00549126 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9E1C8DB11E56A15B00549126 /* STMusicTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = STMusicTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		9E1C8DB51E56A15B00549126 /* STMusicTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = STMusicTests.m; sourceTree = "<group>"; };
+		9E1C8DB71E56A15B00549126 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9E1C8DBC1E56A15B00549126 /* STMusicUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = STMusicUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		9E1C8DC01E56A15B00549126 /* STMusicUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = STMusicUITests.m; sourceTree = "<group>"; };
+		9E1C8DC21E56A15B00549126 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		9E1C8D951E56A15B00549126 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9E1C8DAE1E56A15B00549126 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9E1C8DB91E56A15B00549126 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		9E1C8D8F1E56A15B00549126 = {
+			isa = PBXGroup;
+			children = (
+				9E1C8D9A1E56A15B00549126 /* STMusic */,
+				9E1C8DB41E56A15B00549126 /* STMusicTests */,
+				9E1C8DBF1E56A15B00549126 /* STMusicUITests */,
+				9E1C8D991E56A15B00549126 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		9E1C8D991E56A15B00549126 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				9E1C8D981E56A15B00549126 /* STMusic.app */,
+				9E1C8DB11E56A15B00549126 /* STMusicTests.xctest */,
+				9E1C8DBC1E56A15B00549126 /* STMusicUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		9E1C8D9A1E56A15B00549126 /* STMusic */ = {
+			isa = PBXGroup;
+			children = (
+				9E1C8D9E1E56A15B00549126 /* AppDelegate.h */,
+				9E1C8D9F1E56A15B00549126 /* AppDelegate.m */,
+				9E1C8DA11E56A15B00549126 /* ViewController.h */,
+				9E1C8DA21E56A15B00549126 /* ViewController.m */,
+				9E1C8DA41E56A15B00549126 /* Main.storyboard */,
+				9E1C8DA71E56A15B00549126 /* Assets.xcassets */,
+				9E1C8DA91E56A15B00549126 /* LaunchScreen.storyboard */,
+				9E1C8DAC1E56A15B00549126 /* Info.plist */,
+				9E1C8D9B1E56A15B00549126 /* Supporting Files */,
+			);
+			path = STMusic;
+			sourceTree = "<group>";
+		};
+		9E1C8D9B1E56A15B00549126 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				9E1C8D9C1E56A15B00549126 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		9E1C8DB41E56A15B00549126 /* STMusicTests */ = {
+			isa = PBXGroup;
+			children = (
+				9E1C8DB51E56A15B00549126 /* STMusicTests.m */,
+				9E1C8DB71E56A15B00549126 /* Info.plist */,
+			);
+			path = STMusicTests;
+			sourceTree = "<group>";
+		};
+		9E1C8DBF1E56A15B00549126 /* STMusicUITests */ = {
+			isa = PBXGroup;
+			children = (
+				9E1C8DC01E56A15B00549126 /* STMusicUITests.m */,
+				9E1C8DC21E56A15B00549126 /* Info.plist */,
+			);
+			path = STMusicUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		9E1C8D971E56A15B00549126 /* STMusic */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9E1C8DC51E56A15B00549126 /* Build configuration list for PBXNativeTarget "STMusic" */;
+			buildPhases = (
+				9E1C8D941E56A15B00549126 /* Sources */,
+				9E1C8D951E56A15B00549126 /* Frameworks */,
+				9E1C8D961E56A15B00549126 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = STMusic;
+			productName = STMusic;
+			productReference = 9E1C8D981E56A15B00549126 /* STMusic.app */;
+			productType = "com.apple.product-type.application";
+		};
+		9E1C8DB01E56A15B00549126 /* STMusicTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9E1C8DC81E56A15B00549126 /* Build configuration list for PBXNativeTarget "STMusicTests" */;
+			buildPhases = (
+				9E1C8DAD1E56A15B00549126 /* Sources */,
+				9E1C8DAE1E56A15B00549126 /* Frameworks */,
+				9E1C8DAF1E56A15B00549126 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				9E1C8DB31E56A15B00549126 /* PBXTargetDependency */,
+			);
+			name = STMusicTests;
+			productName = STMusicTests;
+			productReference = 9E1C8DB11E56A15B00549126 /* STMusicTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		9E1C8DBB1E56A15B00549126 /* STMusicUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9E1C8DCB1E56A15B00549126 /* Build configuration list for PBXNativeTarget "STMusicUITests" */;
+			buildPhases = (
+				9E1C8DB81E56A15B00549126 /* Sources */,
+				9E1C8DB91E56A15B00549126 /* Frameworks */,
+				9E1C8DBA1E56A15B00549126 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				9E1C8DBE1E56A15B00549126 /* PBXTargetDependency */,
+			);
+			name = STMusicUITests;
+			productName = STMusicUITests;
+			productReference = 9E1C8DBC1E56A15B00549126 /* STMusicUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		9E1C8D901E56A15B00549126 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = STYue;
+				TargetAttributes = {
+					9E1C8D971E56A15B00549126 = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = BKME25WU4F;
+						ProvisioningStyle = Automatic;
+					};
+					9E1C8DB01E56A15B00549126 = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = BKME25WU4F;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 9E1C8D971E56A15B00549126;
+					};
+					9E1C8DBB1E56A15B00549126 = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = BKME25WU4F;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 9E1C8D971E56A15B00549126;
+					};
+				};
+			};
+			buildConfigurationList = 9E1C8D931E56A15B00549126 /* Build configuration list for PBXProject "STMusic" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 9E1C8D8F1E56A15B00549126;
+			productRefGroup = 9E1C8D991E56A15B00549126 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				9E1C8D971E56A15B00549126 /* STMusic */,
+				9E1C8DB01E56A15B00549126 /* STMusicTests */,
+				9E1C8DBB1E56A15B00549126 /* STMusicUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		9E1C8D961E56A15B00549126 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9E1C8DAB1E56A15B00549126 /* LaunchScreen.storyboard in Resources */,
+				9E1C8DA81E56A15B00549126 /* Assets.xcassets in Resources */,
+				9E1C8DA61E56A15B00549126 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9E1C8DAF1E56A15B00549126 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9E1C8DBA1E56A15B00549126 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		9E1C8D941E56A15B00549126 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9E1C8DA31E56A15B00549126 /* ViewController.m in Sources */,
+				9E1C8DA01E56A15B00549126 /* AppDelegate.m in Sources */,
+				9E1C8D9D1E56A15B00549126 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9E1C8DAD1E56A15B00549126 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9E1C8DB61E56A15B00549126 /* STMusicTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9E1C8DB81E56A15B00549126 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9E1C8DC11E56A15B00549126 /* STMusicUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		9E1C8DB31E56A15B00549126 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 9E1C8D971E56A15B00549126 /* STMusic */;
+			targetProxy = 9E1C8DB21E56A15B00549126 /* PBXContainerItemProxy */;
+		};
+		9E1C8DBE1E56A15B00549126 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 9E1C8D971E56A15B00549126 /* STMusic */;
+			targetProxy = 9E1C8DBD1E56A15B00549126 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		9E1C8DA41E56A15B00549126 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9E1C8DA51E56A15B00549126 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		9E1C8DA91E56A15B00549126 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9E1C8DAA1E56A15B00549126 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		9E1C8DC31E56A15B00549126 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		9E1C8DC41E56A15B00549126 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		9E1C8DC61E56A15B00549126 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = BKME25WU4F;
+				INFOPLIST_FILE = STMusic/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = SlienceTeam.STMusic;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		9E1C8DC71E56A15B00549126 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = BKME25WU4F;
+				INFOPLIST_FILE = STMusic/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = SlienceTeam.STMusic;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		9E1C8DC91E56A15B00549126 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = BKME25WU4F;
+				INFOPLIST_FILE = STMusicTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = SlienceTeam.STMusicTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/STMusic.app/STMusic";
+			};
+			name = Debug;
+		};
+		9E1C8DCA1E56A15B00549126 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = BKME25WU4F;
+				INFOPLIST_FILE = STMusicTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = SlienceTeam.STMusicTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/STMusic.app/STMusic";
+			};
+			name = Release;
+		};
+		9E1C8DCC1E56A15B00549126 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = BKME25WU4F;
+				INFOPLIST_FILE = STMusicUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = SlienceTeam.STMusicUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = STMusic;
+			};
+			name = Debug;
+		};
+		9E1C8DCD1E56A15B00549126 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = BKME25WU4F;
+				INFOPLIST_FILE = STMusicUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = SlienceTeam.STMusicUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = STMusic;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		9E1C8D931E56A15B00549126 /* Build configuration list for PBXProject "STMusic" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9E1C8DC31E56A15B00549126 /* Debug */,
+				9E1C8DC41E56A15B00549126 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9E1C8DC51E56A15B00549126 /* Build configuration list for PBXNativeTarget "STMusic" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9E1C8DC61E56A15B00549126 /* Debug */,
+				9E1C8DC71E56A15B00549126 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		9E1C8DC81E56A15B00549126 /* Build configuration list for PBXNativeTarget "STMusicTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9E1C8DC91E56A15B00549126 /* Debug */,
+				9E1C8DCA1E56A15B00549126 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		9E1C8DCB1E56A15B00549126 /* Build configuration list for PBXNativeTarget "STMusicUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9E1C8DCC1E56A15B00549126 /* Debug */,
+				9E1C8DCD1E56A15B00549126 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 9E1C8D901E56A15B00549126 /* Project object */;
+}
